@@ -55,6 +55,20 @@ with col2:
         mime="application/octet-stream",
     )
 
+choose = option_menu(
+                    "",
+                    ["About Me","Experience", "Technical Skills", "Education", "Projects", "Blog",  "Resume", "Contact"],
+                     icons=['person fill','clock history', 'tools', 'book half', 'clipboard','pencil square', 'paperclip','envelope'],
+                     menu_icon="", 
+                     default_index=0,
+                     styles={
+    "container": {"padding": "0!important"},
+    "icon": {"color": "darkorange", "font-size": "20px"}, 
+    "nav-link": {"font-size": "17px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
+    "nav-link-selected": {"background-color": "#cfcfb4"},
+}
+)
+
 
 # --- LOAD CSS, PDF & PROFILE PIC ---
 dark_mode = st.sidebar.checkbox('Dark mode', False)
@@ -202,19 +216,7 @@ elif choose == "Technical Skills":
 """, True
 )
 
-choose = option_menu(
-                    "",
-                    ["About Me","Experience", "Technical Skills", "Education", "Projects", "Blog",  "Resume", "Contact"],
-                     icons=['person fill','clock history', 'tools', 'book half', 'clipboard','pencil square', 'paperclip','envelope'],
-                     menu_icon="", 
-                     default_index=0,
-                     styles={
-    "container": {"padding": "0!important"},
-    "icon": {"color": "darkorange", "font-size": "20px"}, 
-    "nav-link": {"font-size": "17px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
-    "nav-link-selected": {"background-color": "#cfcfb4"},
-}
-)
+
 
    
 
