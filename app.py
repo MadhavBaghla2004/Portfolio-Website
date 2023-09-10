@@ -1,6 +1,7 @@
 import streamlit as st
+import sys
+sys.path.insert(1, "C:/Users/madhavbaghla/anaconda3/lib/python3.11/site-packages/streamlit_option_menu")
 from streamlit_option_menu import option_menu 
-import streamlit.components.v1 as html
 from pathlib import Path
 from PIL import Image
 import base64
