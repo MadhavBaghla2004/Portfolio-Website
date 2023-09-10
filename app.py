@@ -4,7 +4,6 @@ import streamlit as st
 from PIL import Image
 
 import base64
-from streamlit_option_menu import option_menu
 
 
 # --- PATH SETTINGS ---
