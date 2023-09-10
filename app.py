@@ -1,6 +1,5 @@
 import streamlit as st
-import streamlit_option_menu
-from streamlit_option_menu import option_menu
+# from streamlit_option_menu import option_menu
 from pathlib import Path
 from PIL import Image
 import base64
@@ -210,6 +209,7 @@ elif choose == "Technical Skills":
 <h3> </h3>
 """, True
 )
+
    
 
 
