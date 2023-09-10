@@ -99,12 +99,22 @@ def add_bg_from_local(light_image_file, dark_image_file, dark_mode=False):
 add_bg_from_local('bg.png', 'dark_bg.png', dark_mode)
 
 with st.sidebar:
-     choose = st.radio(
-    "",
-    ["About Me", "Experience", "Technical Skills", "Education", "Projects", "Blog", "Resume", "Contact"]
     
-)
-     st.markdown("""
+    
+   choose = option_menu(
+                        "", 
+                        ["About Me", "Experience", "Technical Skills", "Education", "Projects", "Blog", "Resume", "Contact"],
+                         icons=['person fill','clock history', 'tools', 'book half', 'clipboard', 'image', 'paperclip', 'envelope'],
+                         default_index=0,
+                         styles={
+        "container": {"padding": "0!important"},
+        "icon": {"color": "darkorange", "font-size": "20px"}, 
+        "nav-link": {"font-size": "17px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
+        "nav-link-selected": {"background-color": "#cfcfb4"},
+    }
+    )
+    
+   st.markdown("""
 
     <h2> <img src="https://cdn.dribbble.com/users/891352/screenshots/7105199/media/5238cf20f0301e51fea9cad8912b9ea3.gif" width="50px" /> &nbsp;Socials:</h2>
 
@@ -202,22 +212,7 @@ elif choose == "Technical Skills":
 """, True
 )
 
-with st.sidebar:
-    
-    
-    choose = option_menu(
-                        "Harry Chang", 
-                        ["About Me", "Site Overview", "Experience", "Technical Skills", "Education", "Projects", "Competitions", "Volunteering", "Blog", "Gallery", "Resume", "Testimonials", "Contact"],
-                         icons=['person fill', 'globe', 'clock history', 'tools', 'book half', 'clipboard', 'trophy fill', 'heart', 'pencil square', 'image', 'paperclip', 'star fill', 'envelope'],
-                         menu_icon="mortarboard", 
-                         default_index=0,
-                         styles={
-        "container": {"padding": "0!important", "background-color": "#f5f5dc"},
-        "icon": {"color": "darkorange", "font-size": "20px"}, 
-        "nav-link": {"font-size": "17px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
-        "nav-link-selected": {"background-color": "#cfcfb4"},
-    }
-    )
+
 
 
 
