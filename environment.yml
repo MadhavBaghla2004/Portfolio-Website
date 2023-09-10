@@ -1,0 +1,1 @@
+   conda env export --name  /Users/madhavbaghla/anaconda3 > environment.yml
