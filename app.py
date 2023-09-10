@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_option_menu import option_menu 
 from streamlit.components.v1 import html
 from pathlib import Path
 from PIL import Image
@@ -54,20 +53,6 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-
-choose = option_menu(
-                    "",
-                    ["About Me","Experience", "Technical Skills", "Education", "Projects", "Blog",  "Resume", "Contact"],
-                     icons=['person fill','clock history', 'tools', 'book half', 'clipboard','pencil square', 'paperclip','envelope'],
-                     menu_icon="", 
-                     default_index=0,
-                     styles={
-    "container": {"padding": "0!important"},
-    "icon": {"color": "darkorange", "font-size": "20px"}, 
-    "nav-link": {"font-size": "17px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
-    "nav-link-selected": {"background-color": "#cfcfb4"},
-}
-)
 
 
 # --- LOAD CSS, PDF & PROFILE PIC ---
