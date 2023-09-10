@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit_option_menu
 from streamlit_option_menu import option_menu
 from pathlib import Path
 from PIL import Image
