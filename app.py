@@ -1,5 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu 
+import streamlit.components.v1 as html
 from pathlib import Path
 from PIL import Image
 import base64
