@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_option_menu import option_menu as om
+from streamlit_option_menu import option_menu 
 from pathlib import Path
 from PIL import Image
 import base64
@@ -97,9 +97,9 @@ def add_bg_from_local(light_image_file, dark_image_file, dark_mode=False):
 
 add_bg_from_local('bg.png', 'dark_bg.png', dark_mode)
 
-
+from streamlit_option_menu import option_menu 
 with st.sidebar:
-     choose = om(
+     choose = option_menu(
                         "",
                         ["About Me","Experience", "Technical Skills", "Education", "Projects", "Blog",  "Resume", "Contact"],
                          icons=['person fill','clock history', 'tools', 'book half', 'clipboard','pencil square', 'paperclip','envelope'],
