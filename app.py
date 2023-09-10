@@ -1,6 +1,6 @@
 import streamlit as st
 import sys
-sys.path.insert(1, "C:/Users/madhavbaghla/anaconda3/lib/python3.11/site-packages/(0.3.6)")
+sys.path.insert(1, "Users/madhavbaghla/anaconda3/lib/python3.11/site-packages")
 from streamlit_option_menu import option_menu 
 from pathlib import Path
 from PIL import Image
@@ -99,7 +99,6 @@ def add_bg_from_local(light_image_file, dark_image_file, dark_mode=False):
 
 add_bg_from_local('bg.png', 'dark_bg.png', dark_mode)
 
-from streamlit_option_menu import option_menu 
 with st.sidebar:
      choose = option_menu(
                         "",
