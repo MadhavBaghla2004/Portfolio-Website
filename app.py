@@ -18,7 +18,7 @@ PAGE_TITLE = "Digital CV | Madhav Baghla"
 PAGE_ICON = ":m:"
 NAME = "Madhav Baghla"
 DESCRIPTION = """
-Computer Engineering @ UC San Diego
+Computer Engineering Student @ UC San Diego
 """
 PROJECTS = {
     "1. Data Cleaning & Transformation": "https://www.youtube.com/watch?v=wObV_hwu2QM",
