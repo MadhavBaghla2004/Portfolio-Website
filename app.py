@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_option_menu import option_menu
 from streamlit.components.v1 import html
 from pathlib import Path
 from PIL import Image
@@ -200,6 +201,23 @@ elif choose == "Technical Skills":
 <h3> </h3>
 """, True
 )
+
+with st.sidebar:
+    
+    
+    choose = option_menu(
+                        "Harry Chang", 
+                        ["About Me", "Site Overview", "Experience", "Technical Skills", "Education", "Projects", "Competitions", "Volunteering", "Blog", "Gallery", "Resume", "Testimonials", "Contact"],
+                         icons=['person fill', 'globe', 'clock history', 'tools', 'book half', 'clipboard', 'trophy fill', 'heart', 'pencil square', 'image', 'paperclip', 'star fill', 'envelope'],
+                         menu_icon="mortarboard", 
+                         default_index=0,
+                         styles={
+        "container": {"padding": "0!important", "background-color": "#f5f5dc"},
+        "icon": {"color": "darkorange", "font-size": "20px"}, 
+        "nav-link": {"font-size": "17px", "text-align": "left", "margin":"0px", "--hover-color": "#eee"},
+        "nav-link-selected": {"background-color": "#cfcfb4"},
+    }
+    )
 
 
 
