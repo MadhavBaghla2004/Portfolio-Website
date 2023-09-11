@@ -3,7 +3,8 @@
 ![GitHub](https://img.shields.io/github/license/MadhavBaghla2004/Portfolio-Website)
 
  <img src="https://img.shields.io/badge/Programming%20Languages :-adff2f?style=flat&logoColor=white">&nbsp;
-  <a href="https://www.python.org"><img src="https://img.shields.io/badge/-Python-007ACC?style=flat&logo=python&logoColor=FFFFFF"></a>
+  <a href="https://www.python.org"><img src="https://img.shields.io/badge/-Python-FFFF00?style=flat&logo=python&logoColor=black"></a>
+   <a href="https://www.python.org"><img src="https://img.shields.io/badge/-CSS-1E90FF?style=flat&logo=css3&logoColor=FFFFFF"></a>
 
    <img src="https://img.shields.io/badge/Tools And%20Technologies :-adff2f?style=flat&logoColor=white">  &nbsp; &nbsp;
   <a href="https://git-scm.com"><img src="http://img.shields.io/badge/-Git-F1502F?style=flat&logo=git&logoColor=FFFFFF"></a>
