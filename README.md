@@ -1,7 +1,7 @@
 # Portfolio-Website
 
-![GitHub](https://img.shields.io/github/license/MadhavBaghla2004/Portfolio-Website)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://madhavbaghla.streamlit.app)
+![GitHub](https://img.shields.io/github/license/MadhavBaghla2004/Portfolio-Website?style=flat)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg?style=flat)](https://madhavbaghla.streamlit.app)
 
  <img src="https://img.shields.io/badge/Programming%20Languages :-adff2f?style=flat&logoColor=white">&nbsp;
   <a href="https://www.python.org"><img src="https://img.shields.io/badge/-Python-FFFF00?style=flat&logo=python&logoColor=black"></a>
