@@ -14,7 +14,8 @@
 
 
 ## Live Demonstration
-This site is hosted on the Streamlit cloud and be viewed at [https://madhavbaghla.streamlit.app/](https://madhavbaghla.streamlit.app/)
+This site is hosted on the Streamlit cloud and be viewed at [https://madhavbaghla.streamlit.app/](https://madhavbaghla.streamlit.app/).
+Use browser for the best site experience.
 
 ## Description
 
