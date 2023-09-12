@@ -30,3 +30,19 @@ The code includes the following key sections:
 7. Socials: Displays social media icons and links to Madhav's LinkedIn, Twitter, Gmail and Discord profiles.
 8. Section Content: Displays the content for each selected section, such as projects, technical skills, etc.
 
+## Deploy this site locally
+
+From your command line, clone and run Portfolio-Website:
+
+```bash
+# Clone this repository
+git clone https://github.com/MadhavBaghla2004/Portfolio-Website.git
+
+# Go into the repository
+cd Portfolio-Website
+
+# Running it locally
+streamlit run app.py
+```
+
+
