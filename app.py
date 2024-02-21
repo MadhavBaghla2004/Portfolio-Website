@@ -85,7 +85,7 @@ with col2:
 
 
 # --- LOAD CSS, PDF & PROFILE PIC ---
-dark_mode = st.sidebar.checkbox('Dark mode', False)
+dark_mode = st.sidebar.checkbox('Dark mode', True)
 css_file = current_dir / "styles" / ("dark.css" if dark_mode else "main.css")
 
 with open(css_file) as f:
