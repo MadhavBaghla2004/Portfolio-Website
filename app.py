@@ -34,7 +34,7 @@ PROJECTS = {
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 st.write("""
 <div style="position: fixed; top: 0; right: 0; background-color: black; color: white; padding: 10px;">
-    Use browser for best experience
+    View on computer for best experience
 </div>
 """, unsafe_allow_html=True)
 
