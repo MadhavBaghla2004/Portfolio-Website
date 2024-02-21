@@ -170,6 +170,56 @@ with st.sidebar:
   
 
 """,True)
+
+
+st.markdown("""
+    <style>
+        #MainMenu {visibility: hidden;}
+        .sidebar-content {transition: margin-left .5s;}
+        .sidebar .sidebar-content .block-container {padding-top: 2rem;}
+        .sidebar .sidebar-content .block-container .block {padding-top: 0rem;}
+        .sidebar .sidebar-content .block-container .block:first-child {padding-top: 0rem;}
+        .sidebar .sidebar-content .block-container .block h1 {font-size: 2.25rem;}
+        .sidebar .sidebar-content .block-container .block h2 {font-size: 2rem;}
+        .sidebar .sidebar-content .block-container .block h3 {font-size: 1.75rem;}
+        .sidebar .sidebar-content .block-container .block h4 {font-size: 1.5rem;}
+        .sidebar .sidebar-content .block-container .block h5 {font-size: 1.25rem;}
+        .sidebar .sidebar-content .block-container .block h6 {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block p {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block a {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block code {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.token {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.keyword {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.function {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.function b {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.tag {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.attr-value {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.number {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.built_in {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.deleted {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.string {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.inserted {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.regex {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.important {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.important b {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.strikethrough {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.italic {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.underline {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.special {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.builtin {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.comment {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.meta {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.meta b {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.link {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.bold {font-size: 1rem;}
+        .sidebar .sidebar-content .block-container .block pre code span.keyword, .sidebar .sidebar-content .block-container .block pre code span.function, .sidebar .sidebar-content .block-container .block pre code span.function b, .sidebar .sidebar-content .block-container .block pre code span.tag, .sidebar .sidebar-content .block-container .block pre code span.attr-value, .sidebar .sidebar-content .block-container .block pre code span.number, .sidebar .sidebar-content .block-container .block pre code span.built_in, .sidebar .sidebar-content .block-container .block pre code span.deleted, .sidebar .sidebar-content .block-container .block pre code span.inserted, .sidebar .sidebar-content .block-container .block pre code span.regex, .sidebar .sidebar-content .block-container .block pre code span.important, .sidebar .sidebar-content .block-container .block pre code span.important b, .sidebar .sidebar-content .block-container .block pre code span.strikethrough, .sidebar .sidebar-content .block-container .block pre code span.italic, .sidebar .sidebar-content .block-container .block pre code span.underline, .sidebar .sidebar-content .block-container .block pre code span.special, .sidebar .sidebar-content .block-container .block pre code span.builtin, .sidebar .sidebar-content .block-container .block pre code span.comment, .sidebar .sidebar-content .block-container .block pre code span.meta, .sidebar .sidebar-content .block-container .block pre code span.meta b, .sidebar .sidebar-content .block-container .block pre code span.link, .sidebar .sidebar-content .block-container .block pre code span.bold {
+            font-size: 1rem;
+        }
+        .sidebar .sidebar-content .block-container .block pre code span.token, .sidebar .sidebar-content .block-container .block pre code span.keyword, .sidebar .sidebar-content .block-container .block pre code span.function, .sidebar .sidebar-content .block-container .block pre code span.function b, .sidebar .sidebar-content .block-container .block pre code span.tag, .sidebar .sidebar-content .block-container .block pre code span.attr-value, .sidebar .sidebar-content .block-container .block pre code span.number, .sidebar .sidebar-content .block-container .block pre code span.built_in, .sidebar .sidebar-content .block-container .block pre code span.deleted, .sidebar .sidebar-content .block-container .block pre code span.inserted, .sidebar .sidebar-content .block-container .block pre code span.string, .sidebar .sidebar-content .block-container .block pre code span.inserted, .sidebar .sidebar-content .block-container .block pre code span.regex, .sidebar .sidebar-content .block-container .block pre code span.
+
 # --- ABOUT ME ---
 if choose == "About Me":
   st.write('\n')
