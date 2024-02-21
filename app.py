@@ -53,8 +53,26 @@ with col2:
         data=PDFbyte,
         file_name=resume_file.name,
         mime="application/octet-stream",
-        color="black"
     )
+
+    st.markdown(
+    f"""
+    <style>
+        .stDownloadButton>button {{
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            padding: 8px 16px;
+            cursor: pointer;
+        }}
+        .stDownloadButton>button:hover {{
+            background-color: #222;
+        }}
+    </style>
+    """
+    , unsafe_allow_html=True
+)
 
 
 # --- LOAD CSS, PDF & PROFILE PIC ---
