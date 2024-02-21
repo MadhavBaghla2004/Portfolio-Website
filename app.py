@@ -172,15 +172,6 @@ with st.sidebar:
 """,True)
 
 
-st.markdown(
-    """
-    <style>
-    {% include 'custom.css' %}
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 
 
 
