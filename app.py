@@ -175,24 +175,11 @@ with st.sidebar:
 st.markdown(
     """
     <style>
-    /* Define the custom expander icon */
-    .sidebar-content div[data-testid="stCollapser"] > div:first-child > div:first-child > div:first-child > div:first-child::before {
-        content: "\\25B2"; /* Unicode character for up arrow symbol */
-        font-size: 16px; /* Adjust the size as needed */
-    }
-
-    /* Define the custom collapsed expander icon */
-    .sidebar-content div[data-testid="stCollapser"] > div:first-child > div:first-child > div:first-child > div:first-child[aria-expanded="false"]::before {
-        content: "\\25BC"; /* Unicode character for down arrow symbol */
-        font-size: 16px; /* Adjust the size as needed */
-    }
+    {% include 'custom.css' %}
     </style>
     """,
     unsafe_allow_html=True
 )
-
-# Display the expander in Streamlit sidebar
-st.sidebar.expander("Menu")
 
 
 
