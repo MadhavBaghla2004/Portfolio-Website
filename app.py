@@ -149,11 +149,11 @@ if choose == "About Me":
   st.markdown(
     """
     <blockquote style="background-color: black; color: white; padding: 10px;">
-🤔 Interested in Data Science and Machine Learning '\n'
-🎓 Studying Computer Engineering @ UC San Diego
-💼 Open to Internships
-🌱 Learning more about Cloud Architecture, Systems Design and AI
-🌍 I can speak English, Hindi and French
+🤔 Interested in Data Science and Machine Learning <br>
+🎓 Studying Computer Engineering @ UC San Diego <br>
+💼 Open to Internships <br>
+🌱 Learning more about Cloud Architecture, Systems Design and AI <br>
+🌍 I can speak English, Hindi and French <br>
 
 </blockquote>
 """,unsafe_allow_html=True
