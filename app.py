@@ -172,24 +172,7 @@ with st.sidebar:
 """,True)
 
 
-st.markdown(
-    """
-    <style>
-    /* Hide the default Streamlit sidebar toggle SVG icon */
-    .sidebar-toggle-content {display: none;}
 
-    /* Define the custom menu icon */
-    .custom-menu-icon:before {
-        content: "\\2630"; /* Unicode character for menu symbol */
-        font-size: 24px; /* Adjust the size as needed */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-# Display the Streamlit sidebar with the custom menu icon
-st.sidebar.header("Sidebar Menu")
 
 
 
