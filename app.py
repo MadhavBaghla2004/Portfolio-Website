@@ -171,6 +171,18 @@ with st.sidebar:
 
 """,True)
 
+side_bar_styling = """
+<div class="css-ccx7zh e1fqkh01">
+    <button class="css-9s5bis edgvbvh3" kind="header">
+        <svg class="e1fb0mya0 css-1xfuh55 ex0cdmw0" viewBox="0 0 640 512" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg" color="inherit">
+            <path d="M286.3 155.1C287.4 ..."/>
+        </svg>
+    </button>
+</div>
+"""
+
+st.markdown(side_bar_styling, unsafe_allow_html=True)
+
 
 
 # --- ABOUT ME ---
