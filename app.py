@@ -152,7 +152,7 @@ with st.sidebar:
   </a>
 
 
-  <a href="https://twitter.com/OnlyMB04">
+  <a href="https://twitter.com/mad__have">
     <img src="https://vectorseek.com/wp-content/uploads/2023/07/Twitter-X-Logo-Vector-01-2.jpg" alt="Twitter" height="35" width="35">
   </a>
 
