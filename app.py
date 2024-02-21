@@ -226,14 +226,13 @@ if choose == "About Me":
   st.subheader("About Me")
   st.markdown(
     """
-    <blockquote style="background-color: black; color: white; padding: 10px;">
+  <blockquote style="background-color: black; color: white; padding: 10px;">
 🤔 Interested in Data Science and Machine Learning <br>
 🎓 Studying Computer Engineering @ UC San Diego <br>
 💼 Open to Internships <br>
 🌱 Learning more about Cloud Architecture, Systems Design and AI <br>
 🌍 I can speak English, Hindi and French <br>
-
-</blockquote>
+   </blockquote>
 """,unsafe_allow_html=True
 )
 
