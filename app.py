@@ -20,6 +20,8 @@ NAME = "Madhav Baghla"
 DESCRIPTION = """
 Computer Engineering Student @ UC San Diego
 """
+st.write("Use browser for best experience", anchor="top-right")
+
 PROJECTS = {
     "1. Data Cleaning & Transformation": "https://www.youtube.com/watch?v=wObV_hwu2QM",
     "2. Data Analysis": "https://example.com/project2",
