@@ -20,7 +20,6 @@ NAME = "Madhav Baghla"
 DESCRIPTION = """
 Computer Engineering Student @ UC San Diego
 """
-st.write("Use browser for best experience", anchor="top-right")
 
 PROJECTS = {
     "1. Data Cleaning & Transformation": "https://www.youtube.com/watch?v=wObV_hwu2QM",
@@ -30,7 +29,10 @@ PROJECTS = {
 }
 
 
+
+
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+st.write("Use browser for best experience", anchor="top-right")
 
 
 # --- LOAD CSS, PDF & PROFILE PIC ---
