@@ -15,7 +15,7 @@ profile_pic = current_dir / "assets" / "profile-pic.png"
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Madhav Baghla"
-PAGE_ICON = ":m:"
+PAGE_ICON = "Ⓜ️"
 NAME = "Madhav Baghla"
 DESCRIPTION = """
 Computer Engineering Student @ UC San Diego
