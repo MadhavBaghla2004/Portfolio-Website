@@ -48,17 +48,13 @@ with col1:
 with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
-    st.markdown(
-    """
-    <div style="background-color: black; padding: 10px; border-radius: 5px;">
-        <a href="data:application/octet-stream;base64,{PDFbyte}" download="{resume_file.name}" style="color: white; text-decoration: none;">
-            📄 Download Resume
-        </a>
-    </div>
-    """.format(PDFbyte=PDFbyte, resume_file=resume_file),
-    unsafe_allow_html=True
-)
-
+    st.download_button(
+        label="📄 Download Resume",
+        data=PDFbyte,
+        file_name=resume_file.name,
+        mime="application/octet-stream",
+        color="black"
+    )
 
 
 # --- LOAD CSS, PDF & PROFILE PIC ---
