@@ -92,7 +92,7 @@ with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 
 
-def add_bg_from_local(light_image_file, dark_image_file, dark_mode=False):
+def add_bg_from_local(light_image_file, dark_image_file, dark_mode=True):
     if dark_mode:
         image_file = dark_image_file
     else:
