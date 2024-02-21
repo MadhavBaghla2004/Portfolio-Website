@@ -148,6 +148,7 @@ if choose == "About Me":
   st.subheader("About Me")
   st.markdown(
     """
+    <blockquote style="background-color: black; color: white; padding: 10px;">
     ```
 🤔 Interested in Data Science and Machine Learning
 🎓 Studying Computer Engineering @ UC San Diego
@@ -155,7 +156,8 @@ if choose == "About Me":
 🌱 Learning more about Cloud Architecture, Systems Design and AI
 🌍 I can speak English, Hindi and French
 ```
-""",True
+</blockquote>
+""",unsafe_allow_html=True
 )
 
 elif choose == "Experience":
